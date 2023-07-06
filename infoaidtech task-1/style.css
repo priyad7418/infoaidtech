@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&family=Ysabeau:wght@200;300;500;800&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+  body{
+   font-family:'ysabeau',sans-serif;
+   height:100vh;
+   width:100%;
+   color:white;
+   background-color: black;
+
+
+}
+.nav-bar{
+    height:20%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-items ul{
+    display:flex;
+    font-size:large;
+    font-weight: bold;
+    
+}
+.menu-items li{
+    list-style: none;
+    margin-right:40px;
+}
+.nav-bar h1{
+    position: relative;
+    text-shadow:2 rem;
+    display: flex;
+   margin-top:20px
+}
+.header{
+ height:300px;
+}
+.header img{
+
+   height: 300px;
+   width:100%;
+    transition: 1s;
+
+
+}
+.header h1{
+    position: relative;
+    display:flex;
+    font-size: 40px;
+    color:rgb(27, 56, 56);
+    margin-top:-300px;
+    text-align: center;
+    justify-content: center;
+}
+
+.column-1{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.cat{
+    width:25%;
+    margin:30px;
+
+    
+}
+
+.cat h2{
+    font-size: 30px;
+}
+.cat ul{
+ list-style: none;
+}
+.cat ul li{
+    margin-top:20px;
+    font-size:larger;
+    }
+.cat ul li:hover{
+  background-color: rgb(224, 222, 222);
+   height:30px;
+   width:200px;
+   border-radius: 4px;
+
+
+}
+.product-1{
+    width:25%;
+    height:500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.column-1 img{
+    
+    width:300px;
+    height:250px;
+
+}
+.des{
+    margin-top:10px;
+}
+.price{
+    margin-left:-10px;
+}
+.rat{
+    display: flex;
+    margin-top:10px;
+    
+}
+.review{
+    margin-left:2px;
+    
+}
+.column-1 i{
+    display: flex;
+    color:rgb(240, 179, 67)
+}
+
+.product-1 button{
+    height:30px;
+    width:200px;
+    background-color: transparent;
+    margin-top:10px;
+    border:1px solid rgb(36, 116, 148);
+    color:rgb(30, 112, 145);
+}
+.column-2{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-top:50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.column-2 img{
+    width:300px;
+    height:250px;
+
+}
+.column-2 i{
+    display: flex;
+    color:rgb(240, 179, 67)
+}
+.products{
+    display: flex;
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+}
